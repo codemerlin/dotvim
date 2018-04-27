@@ -47,6 +47,10 @@ Plug 'rust-lang/rust.vim'
 Plug 'Quramy/tsuquyomi'
 Plug 'machakann/vim-highlightedyank'
 Plug 'ekalinin/Dockerfile.vim'
+Plug 'https://github.com/pangloss/vim-javascript'
+Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all'  }
+Plug 'junegunn/fzf.vim'
+Plug 'mileszs/ack.vim'
 
 
 " Over 70 language packs
