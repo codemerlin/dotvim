@@ -51,7 +51,7 @@ Plug 'https://github.com/pangloss/vim-javascript'
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all'  }
 Plug 'junegunn/fzf.vim'
 Plug 'mileszs/ack.vim'
-
+Plug 'jlanzarotta/bufexplorer'
 
 " Over 70 language packs
 Plug 'sheerun/vim-polyglot'
