@@ -40,11 +40,8 @@ Usage
 The following commands will clone the repo, symlink ``~/.vimrc`` and update the
 bundles::
 
-    git clone https://github.com/codemerlin/dotvim.git ~/.vim
-    ln -s ~/.vim/vimrc ~/.vimrc
-    cd ~/.vim
-    curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
-        https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+    git clone https://github.com/codemerlin/dotvim.git ~/.vim ; cd ~/.vim ; chmod +x ./install.sh ; ./install.sh
+     
 
 Install plugins from the command line::
 
