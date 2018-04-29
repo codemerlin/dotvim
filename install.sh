@@ -1,3 +1,4 @@
+#!/bin/bash
 ln -s ~/.vim/vimrc ~/.vimrc
 mkdir ~/.vimbkp
 ln -s ~/.vim/zshrc ~/.zshrc
