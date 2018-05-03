@@ -1,6 +1,4 @@
 " ==================================================
-" Basic Mappings
-" ==================================================
 
 " Maps for jj to act as Esc in insert and command modes
 ino jj <esc>
@@ -60,12 +58,13 @@ noremap <C-Right> <C-W>l
 imap <C-W> <C-O><C-W>
 
 " - and + to resize horizontal splits
-map - <C-W>-
-map + <C-W>+
+map - <C-W>>
+map + <C-W><
 
 " alt-< or alt-> for vertical splits
-map <m-,> <C-W>>
-map <m-.> <C-W><
+map <m-,> <C-W>-
+map <m-.> <C-W>+
+
 
 " F2 close current split (window)
 noremap <F2> <Esc>:close<CR><Esc>

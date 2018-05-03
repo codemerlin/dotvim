@@ -33,7 +33,7 @@ Plug 'editorconfig/editorconfig-vim'
 Plug 'tomtom/tcomment_vim'
 Plug 'davidhalter/jedi-vim'
 Plug 'ludovicchabant/vim-lawrencium'
-Plug 'jelera/vim-javascript-syntax'
+" Plug 'jelera/vim-javascript-syntax'
 Plug 'tpope/vim-unimpaired'
 Plug 'terryma/vim-multiple-cursors'
 Plug 'AndrewRadev/splitjoin.vim'
@@ -47,11 +47,12 @@ Plug 'rust-lang/rust.vim'
 Plug 'Quramy/tsuquyomi'
 Plug 'machakann/vim-highlightedyank'
 Plug 'ekalinin/Dockerfile.vim'
-Plug 'https://github.com/pangloss/vim-javascript'
+" Plug 'https://github.com/pangloss/vim-javascript'
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all'  }
 Plug 'junegunn/fzf.vim'
 Plug 'mileszs/ack.vim'
 Plug 'jlanzarotta/bufexplorer'
+Plug 'prettier/vim-prettier', {'do': 'yarn install','for': ['javascript', 'typescript', 'css', 'less', 'scss', 'json', 'graphql', 'markdown', 'vue']}
 
 " Over 70 language packs
 Plug 'sheerun/vim-polyglot'
