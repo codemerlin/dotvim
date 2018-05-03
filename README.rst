@@ -37,18 +37,12 @@ Vim with Python support.
 Usage
 ============
 
-The following commands will clone the repo, symlink ``~/.vimrc`` and update the
-bundles::
+The following commands will clone the repo, symlink ``~/.vimrc`` and installs all the 
+files::
 
-    git clone https://github.com/MeirKriheli/dotvim.git ~/.vim
-    ln -s ~/.vim/vimrc ~/.vimrc
-    cd ~/.vim
-    curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
-        https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+    git clone https://github.com/codemerlin/dotvim.git ~/.vim ; cd ~/.vim ; chmod +x ./install.sh ; ./install.sh
+     
 
-Install plugins from the command line::
-
-    vim +PlugUpdate +qa
 
 To add or override settings, place them in ``~/.vim/vimrc.local``.
 
