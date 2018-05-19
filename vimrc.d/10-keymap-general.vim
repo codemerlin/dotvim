@@ -22,7 +22,7 @@ nnoremap N Nzz
 
 " check the existence of |TextYankPost| event.
 if !exists('##TextYankPost')
-  map y <Plug>(highlightedyank)
+    map y <Plug>(highlightedyank)
 endif
 
 " ==================================================
@@ -71,6 +71,8 @@ noremap <F2> <Esc>:close<CR><Esc>
 
 " Deleter buffer, keep the split (switch to prev buf, delete now prev buf)
 nmap <leader>d :b#<bar>bd#<CR>
+nmap <leader>h :bp<CR>
+nmap <leader>l :bn<CR>
 
 
 " ==================================================
@@ -92,9 +94,15 @@ noremap <F4> :set hlsearch! hlsearch?<CR>
 " ==================================================
 let c='a'
 while c <= 'z'
-  exec "set <A-".c.">=\e".c
-  exec "imap \e".c." <A-".c.">"
-  let c = nr2char(1+char2nr(c))
+    exec "set <A-".c.">=\e".c
+    exec "imap \e".c." <A-".c.">"
+    let c = nr2char(1+char2nr(c))
 endw
 
+fun! PullAndRefresh()
+    set noconfirm
+    bufdo e!
+    set confirm
+endfun
 
+nmap <leader>gr call PullAndRefresh()
