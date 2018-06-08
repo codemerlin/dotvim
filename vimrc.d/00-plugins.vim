@@ -56,6 +56,8 @@ Plug 'prettier/vim-prettier', {'do': 'yarn install','for': ['javascript', 'types
 
 " Over 70 language packs
 Plug 'sheerun/vim-polyglot'
+Plug 'alvan/vim-closetag'
+
 
 if v:version >= 800
     " Vim 8.0: Alternative async-completor plugin
