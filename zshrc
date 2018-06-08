@@ -100,3 +100,7 @@ DEFAULT_USER=`whoami`
 prompt_dir() {
     prompt_segment blue black "`basename "${PWD/#$HOME/~}"`"
 }
+
+if [[ -z "$LC_ALL" ]]; then
+  export LC_ALL='en_US.UTF-8'
+fi
