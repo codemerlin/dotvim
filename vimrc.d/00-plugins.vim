@@ -7,7 +7,7 @@ Plug 'altercation/vim-colors-solarized'
 Plug 'tpope/vim-dispatch'
 Plug 'Shougo/vimproc.vim', {'do' : 'make'}
 Plug 'tpope/vim-fugitive'
-Plug 'ctrlpvim/ctrlp.vim'
+"Plug 'ctrlpvim/ctrlp.vim'
 Plug 'sirver/ultisnips'
 Plug 'tomtom/tlib_vim'
 Plug 'MarcWeber/vim-addon-mw-utils'
@@ -56,7 +56,17 @@ Plug 'prettier/vim-prettier', {'do': 'yarn install','for': ['javascript', 'types
 
 " Over 70 language packs
 Plug 'sheerun/vim-polyglot'
+" Auto close html tag
 Plug 'alvan/vim-closetag'
+
+" Follow https://github.com/devjoe/vim-codequery installation instructions
+"
+"Plug 'Shougo/unite.vim'
+"Plug 'devjoe/vim-codequery'
+" better terminal support
+Plug 'wincent/terminus'
+" support for git gutter
+Plug 'airblade/vim-gitgutter'
 
 
 if v:version >= 800

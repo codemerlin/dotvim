@@ -7,3 +7,4 @@ spell/*
 bundle/
 plugged/
 autoload/plug.vim*
+pack/

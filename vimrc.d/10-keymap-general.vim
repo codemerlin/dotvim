@@ -105,4 +105,5 @@ fun! PullAndRefresh()
     set confirm
 endfun
 
-nmap <leader>gr call PullAndRefresh()
+nmap <leader>R call PullAndRefresh()
+nmap <leader>f :FZF<CR>
