@@ -5,6 +5,15 @@ My vim setup
 My vim IDE setup for Python, Go, Rust, html, css, javascript, typescript,
 gettext and more.
 
+make sure to install prettier
+```
+npm install -g prettier
+```
+
+and follow 
+
+https://github.com/maralla/completor.vim#javascript
+
 
 Features
 ============
