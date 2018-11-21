@@ -105,5 +105,7 @@ fun! PullAndRefresh()
     set confirm
 endfun
 
+" Reload all files
 nmap <leader>R call PullAndRefresh()
+" activate file search
 nmap <leader>f :FZF<CR>

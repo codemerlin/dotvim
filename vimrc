@@ -47,5 +47,5 @@ if filereadable(expand("~/.vim/vimrc.local"))
     source ~/.vim/vimrc.local
 endif
 
-autocmd Filetype json if getfsize(@%) > 1000 | setlocal syntax=OFF | endif
+autocmd Filetype json if getfsize(@%) > 10000 | setlocal syntax=OFF | endif
 
