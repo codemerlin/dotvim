@@ -1,6 +1,7 @@
 #!/bin/bash
 ln -s ~/.vim/vimrc ~/.vimrc
-mkdir ~/.vimbkp
+mkdir -p ~/.vim/bkp
+mkdir -p ~/.vim/swp
 ln -s ~/.vim/zshrc ~/.zshrc
 ln -s ~/.vim/tmux.conf ~/.tmux.conf
 cd ~/.vim

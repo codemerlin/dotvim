@@ -1,7 +1,7 @@
 set shortmess=a
 set cmdheight=2
-set backupdir=~/.vimbkp
-set directory=~/.vimbkp
+set backupdir=~/.vim/bkp//
+set directory=~/.vim/swp//
 set number relativenumber
 set hidden
 let g:ackprg = 'ag --vimgrep --smart-case'

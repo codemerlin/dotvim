@@ -8,3 +8,5 @@ bundle/
 plugged/
 autoload/plug.vim*
 pack/
+swp
+bkp
