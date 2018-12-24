@@ -12,5 +12,8 @@ cnoreabbrev AG Ack
 set listchars=eol:¬,tab:>·,trail:~,extends:>,precedes:<,space:␣
 cnoreabbrev Ack Ack!
 nnoremap <Leader>a :Ack!<Space>
+"nnoremap <leader>c :Ag! "<cword>"<cr>
+nnoremap <leader>w :Ack! <C-r>=expand('<cword>')<CR>
+set autoread
 " set list
 

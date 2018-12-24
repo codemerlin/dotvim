@@ -108,4 +108,7 @@ endfun
 " Reload all files
 nmap <leader>R call PullAndRefresh()
 " activate file search
-nmap <leader>f :FZF<CR>
+nmap <leader>f :Files<CR>
+nmap <leader>F :FZF<CR>
+
+vnoremap // y/<C-R>"<CR>
