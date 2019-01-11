@@ -68,6 +68,8 @@ Plug 'alvan/vim-closetag'
 Plug 'wincent/terminus'
 " support for git gutter
 Plug 'airblade/vim-gitgutter'
+" LeetCode
+Plug 'iandingx/leetcode.vim'
 
 
 if v:version >= 800
