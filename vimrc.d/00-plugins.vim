@@ -69,7 +69,10 @@ Plug 'wincent/terminus'
 " support for git gutter
 Plug 'airblade/vim-gitgutter'
 " LeetCode
-Plug 'iandingx/leetcode.vim'
+"Plug 'iandingx/leetcode.vim'
+"Plug 'OmniSharp/omnisharp-vim'
+Plug 'iamcco/markdown-preview.vim'
+
 
 
 if v:version >= 800
