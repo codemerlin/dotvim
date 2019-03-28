@@ -73,6 +73,7 @@ noremap <F2> <Esc>:close<CR><Esc>
 nmap <leader>d :b#<bar>bd#<CR>
 nmap <leader>j :bp<CR>
 nmap <leader>k :bn<CR>
+nmap <leader>r :BufExplorer<CR>
 
 
 " ==================================================
