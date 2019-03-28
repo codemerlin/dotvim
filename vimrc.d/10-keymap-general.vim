@@ -111,6 +111,7 @@ nmap <leader>R call PullAndRefresh()
 " activate file search
 nmap <leader>f :Files<CR>
 nmap <leader>F :FZF<CR>
+nmap <leader>g :GFiles<CR>
 
 " search and replace word under cursor
 nmap <leader>s :%s/\<<C-r><C-w>\>/
