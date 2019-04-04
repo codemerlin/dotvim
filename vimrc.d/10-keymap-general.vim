@@ -117,3 +117,10 @@ nmap <leader>g :GFiles<CR>
 nmap <leader>s :%s/\<<C-r><C-w>\>/
 
 vnoremap // y/<C-R>"<CR>
+
+
+" disable arrow keys
+noremap <Up> <Nop>
+noremap <Down> <Nop>
+noremap <Left> <Nop>
+noremap <Right> <Nop>
