@@ -73,7 +73,7 @@ Plug 'airblade/vim-gitgutter'
 "Plug 'iandingx/leetcode.vim'
 "Plug 'OmniSharp/omnisharp-vim'
 Plug 'iamcco/markdown-preview.vim'
-
+Plug 'ryanoasis/vim-devicons'
 
 
 if v:version >= 800
