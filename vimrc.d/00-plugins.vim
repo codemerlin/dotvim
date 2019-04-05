@@ -21,7 +21,7 @@ Plug 'scrooloose/nerdtree'
 Plug 'jiangmiao/auto-pairs'
 Plug 'vim-scripts/TaskList.vim'
 Plug 'vim-scripts/matchit.zip'
-Plug 'ervandew/supertab'
+"Plug 'ervandew/supertab'
 Plug 'godlygeek/tabular'
 Plug 'vim-scripts/po.vim--Jelenak'
 Plug 'honza/vim-snippets'
@@ -45,7 +45,7 @@ Plug 'tomasr/molokai'
 Plug 'edkolev/tmuxline.vim'
 Plug 'fatih/vim-go'
 Plug 'rust-lang/rust.vim'
-Plug 'Quramy/tsuquyomi'
+"Plug 'Quramy/tsuquyomi'
 Plug 'machakann/vim-highlightedyank'
 Plug 'ekalinin/Dockerfile.vim'
 " Plug 'https://github.com/pangloss/vim-javascript'
@@ -73,16 +73,18 @@ Plug 'airblade/vim-gitgutter'
 "Plug 'iandingx/leetcode.vim'
 "Plug 'OmniSharp/omnisharp-vim'
 Plug 'iamcco/markdown-preview.vim'
-Plug 'ryanoasis/vim-devicons'
+Plug 'neoclide/coc.nvim', {'do': { -> coc#util#install()}}
 
 
 if v:version >= 800
     " Vim 8.0: Alternative async-completor plugin
     " built-in support for python (jedi), java, etc.
-    Plug 'maralla/completor.vim'
-    Plug 'w0rp/ale'
+    "Plug 'maralla/completor.vim'
+    "Plug 'w0rp/ale'
 else
     Plug 'scrooloose/syntastic'
 endif
+
+Plug 'ryanoasis/vim-devicons'
 
 call plug#end()
