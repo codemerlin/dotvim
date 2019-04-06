@@ -20,7 +20,7 @@ Plug 'vim-scripts/css3-mod'
 Plug 'scrooloose/nerdtree'
 Plug 'jiangmiao/auto-pairs'
 Plug 'vim-scripts/TaskList.vim'
-Plug 'vim-scripts/matchit.zip'
+" Plug 'vim-scripts/matchit.zip'
 "Plug 'ervandew/supertab'
 Plug 'godlygeek/tabular'
 Plug 'vim-scripts/po.vim--Jelenak'
@@ -53,7 +53,7 @@ Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all'  }
 Plug 'junegunn/fzf.vim'
 Plug 'mileszs/ack.vim'
 Plug 'jlanzarotta/bufexplorer'
-Plug 'prettier/vim-prettier', {'do': 'yarn install','for': ['javascript', 'typescript', 'css', 'less', 'scss', 'json', 'graphql', 'markdown', 'vue', 'jsx']}
+Plug 'prettier/vim-prettier', {'do': 'yarn install','for': ['javascript', 'typescript', 'css', 'less', 'scss', 'json', 'graphql', 'markdown', 'vue', 'jsx', 'typescript.tsx']}
 
 " Over 70 language packs
 Plug 'sheerun/vim-polyglot'
