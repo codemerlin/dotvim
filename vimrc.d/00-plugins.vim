@@ -74,6 +74,7 @@ Plug 'airblade/vim-gitgutter'
 "Plug 'OmniSharp/omnisharp-vim'
 Plug 'iamcco/markdown-preview.vim'
 Plug 'neoclide/coc.nvim', {'do': { -> coc#util#install()}}
+Plug 'jparise/vim-graphql'
 
 
 if v:version >= 800
