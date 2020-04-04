@@ -118,6 +118,7 @@ nmap <leader>s :%s/\<<C-r><C-w>\>/
 
 vnoremap // y/<C-R>"<CR>
 
+nnoremap <leader>y :let @+=expand("%") . ':' . line(".")<CR>
 
 " disable arrow keys
 noremap <Up> <Nop>

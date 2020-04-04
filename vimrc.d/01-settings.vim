@@ -93,3 +93,5 @@ match WhitespaceEOL /\s\+$/
 
 " Trigger autoread when changing buffers or coming back to vim.
 au FocusGained,BufEnter * :silent! !
+set clipboard=unnamed
+let g:OmniSharp_server_stdio = 1

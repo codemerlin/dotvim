@@ -33,6 +33,7 @@ Plug 'editorconfig/editorconfig-vim'
 Plug 'tomtom/tcomment_vim'
 Plug 'davidhalter/jedi-vim'
 Plug 'ludovicchabant/vim-lawrencium'
+Plug 'christianrondeau/vim-azure-log-analytics'
 " Plug 'jelera/vim-javascript-syntax'
 Plug 'tpope/vim-unimpaired'
 Plug 'terryma/vim-multiple-cursors'
@@ -71,9 +72,9 @@ Plug 'airblade/vim-gitgutter'
 " LeetCode
 
 "Plug 'iandingx/leetcode.vim'
-"Plug 'OmniSharp/omnisharp-vim'
+Plug 'OmniSharp/omnisharp-vim'
 Plug 'iamcco/markdown-preview.vim'
-Plug 'neoclide/coc.nvim', {'do': { -> coc#util#install()}}
+"Plug 'neoclide/coc.nvim', {'do': { -> coc#util#install()}}
 Plug 'jparise/vim-graphql'
 
 
